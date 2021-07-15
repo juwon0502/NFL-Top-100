@@ -9,3 +9,8 @@ Using the Rankings of the last 10 years, what kind of things can we uncover?
 * What players have been the most consistent?
 
 Ranking data and player statistics was scraped through the Beautiful Soup library
+
+
+Some changes that I made:
+- Left off Full Backs from offensive playmakers as it makes up only 0.3% of the rankings and it's a slowly fading position
+- Changed St. Louis, San Diego, Oakland to their new respective team-location abbreviations (as well as the Washington Football Team)

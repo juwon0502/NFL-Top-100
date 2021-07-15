@@ -8,4 +8,4 @@ Using the Rankings of the last 10 years, what kind of things can we uncover?
 * What team has had the best players of the past 10 years?
 * What players have been the most consistent?
 
-###Ranking data and player statistics was scraped through the Beautiful Soup library
+Ranking data and player statistics was scraped through the Beautiful Soup library

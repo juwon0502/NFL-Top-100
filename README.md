@@ -14,3 +14,17 @@ Ranking data and player statistics was scraped through the Beautiful Soup librar
 Some changes that I made:
 - Left off Full Backs from offensive playmakers as it makes up only 0.3% of the rankings and it's a slowly fading position
 - Changed St. Louis, San Diego, Oakland to their new respective team-location abbreviations (as well as the Washington Football Team)
+
+
+My prediciton of top 10 (as of July 16 and no particular order):
+* Aaron Rodgers
+* Josh Allen
+* Aaron Donald
+* Patrick Mahomes
+* TJ Watt
+* Travis Kelce
+* Derrick Henry
+* Jalen Ramsey
+* Davante Adams
+* Myles Garret
+

@@ -57,7 +57,7 @@ def get_col_names():
     return add_cols
 
 def main():
-    df = pd.read_csv('Top 100 Players Master Dataset.csv' , index_col = ['Year', 'Player'])
+    df = pd.read_csv('../Data/Top 100 Players Master Dataset.csv' , index_col = ['Year', 'Player'])
     rb = df.loc[df['Position']=='RB']
     big_list = []
     for name in list(rb.index.values):
@@ -74,7 +74,7 @@ def main():
     rb_stats = pd.DataFrame(big_list, columns = get_col_names())
     rb_stats = rb_stats.set_index(['Year','Player'])
     rb_data = rb.join(rb_stats, lsuffix=['Year','Player'], rsuffix=['Year','Player'])
-    rb_data.to_csv('rb_data.csv')
+    rb_data.to_csv('../Data/rb_data.csv')
     print(rb_data)
 
 main()

@@ -93,7 +93,7 @@ def get_col_names():
     return add_cols
 
 def main():
-    df = pd.read_csv('Top 100 Players Master Dataset.csv' , index_col = ['Year', 'Player'])
+    df = pd.read_csv('../Data/Top 100 Players Master Dataset.csv' , index_col = ['Year', 'Player'])
     temp = pd.DataFrame()
     for x in def_pos:
         temp2 = df.loc[df['Position']==x]
@@ -115,7 +115,7 @@ def main():
     def_stats = pd.DataFrame(big_list, columns = get_col_names())
     def_stats = def_stats.set_index(['Year','Player'])
     def_data = temp.join(def_stats, lsuffix=['Year','Player'], rsuffix=['Year','Player'])
-    def_data.to_csv('def_data.csv')
+    def_data.to_csv('../Data/def_data.csv')
     print(def_data)
 
 main()

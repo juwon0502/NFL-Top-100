@@ -43,7 +43,7 @@ def get_stats(name, year, end):
     return data1
 
 def main():
-    df = pd.read_csv("Top 100 Players Master Dataset.csv" , index_col=['Year', 'Player'])
+    df = pd.read_csv("../Data/Top 100 Players Master Dataset.csv" , index_col=['Year', 'Player'])
     # populate new df by calling get_stats method
     qb = df.loc[df['Position'] == "QB"]
     big_list = []
@@ -65,7 +65,7 @@ def main():
     qb_stats = qb_stats.set_index(['Year','Player'])
     qb_data = qb.join(qb_stats, lsuffix=['Year','Player'], rsuffix=['Year','Player'])
     qb_data = qb_data.dropna()
-    qb_data.to_csv("qb_data.csv")
+    qb_data.to_csv("../Data/qb_data.csv")
     print(qb_data)
     return(qb_data)
 

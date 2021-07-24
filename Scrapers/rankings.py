@@ -9,10 +9,10 @@ YEARS = []
 for x in range(2010, 2020):
   YEARS.append(x)
 
-with open('teams.json') as json_file:
+with open('../Data/teams.json') as json_file:
     team_abv = json.load(json_file)
 
-with open('position.json') as json_file:
+with open('../Data/position.json') as json_file:
     position_abv = json.load(json_file)
 
 def get_data(year):
@@ -77,6 +77,6 @@ def main():
     df['Points'] = 101 - df['Rank']
     df.loc[df['Player'].str.contains('Mark Ingram Jr.')] = 'Mark Ingram'
     df = df.set_index(['Year', 'Player'])
-    df.to_csv("Top 100 Players Master Dataset.csv")
+    df.to_csv("../Data/Top 100 Players Master Dataset.csv")
 
 main()

@@ -21,12 +21,12 @@ My prediciton of top 10 (as of July 16 and no particular order):
 * Josh Allen
 * Aaron Donald
 * Patrick Mahomes
+* Tom Brady
 * TJ Watt
 * Travis Kelce
 * Derrick Henry
-* Jalen Ramsey
 * Davante Adams
 * Myles Garret
 
-## Exploratory Analysis.ipynb is where the historical data was analyized to see past trends and determine which playes have historically been ranked the best
-## Predictive Analysis.ipynb is where PyCaret and SciKit Learn were used to predict where the top players of this season would land on the players list
+### Exploratory Analysis.ipynb is where the historical data was analyized to see past trends and determine which playes have historically been ranked the best
+### Predictive Analysis.ipynb is where PyCaret and SciKit Learn were used to predict where the top players of this season would land on the players list

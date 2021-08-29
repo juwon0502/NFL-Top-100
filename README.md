@@ -16,7 +16,7 @@ Some changes that I made:
 - Changed St. Louis, San Diego, Oakland to their new respective team-location abbreviations (as well as the Washington Football Team)
 
 
-My prediciton of top 10 (as of July 16 and no particular order):
+My prediciton of top 10 (in no particular order):
 * Aaron Rodgers
 * Josh Allen
 * Aaron Donald
@@ -28,7 +28,21 @@ My prediciton of top 10 (as of July 16 and no particular order):
 * Davante Adams
 * Myles Garret
 
+Model prediction of top 10 (in no particular order):
+* Derrick Henry **
+* Aaron Rodgers **
+* Tom Brady **
+* Patrick Mahomes **
+* Josh Allen **
+* Russel Wilson **
+* Dalvin Cook
+* Alvin Kamara
+* TJ Watt
+* 
+
 #### Exploratory Analysis.ipynb is where the historical data was analyized to see past trends and determine which playes have historically been ranked the best
 #### Predictive Analysis.ipynb is where PyCaret and SciKit Learn were used to predict where the top players of this season would land on the players list
 #### The files under scapers are the web-scraping files used to gather past rankings and statistics of players
 #### The data collected is under the Data folder
+
+

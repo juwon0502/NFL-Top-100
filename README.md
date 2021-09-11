@@ -28,17 +28,21 @@ My prediciton of top 10 (in no particular order):
 * Davante Adams
 * Myles Garret
 
-Model prediction of top 10 (in no particular order):
-* Derrick Henry **
-* Aaron Rodgers **
-* Tom Brady **
-* Patrick Mahomes **
-* Josh Allen **
-* Russel Wilson **
+Model prediction of top 10 players (in no particular order):
+* Derrick Henry *
+* Aaron Rodgers *
+* Tom Brady *
+* Patrick Mahomes *
+* Josh Allen *
+* Russel Wilson *
+* Davante Adams
 * Dalvin Cook
 * Alvin Kamara
 * TJ Watt
-* 
+
+"*" indicates predicted top 10, players with no asterisk were predicted top 15
+
+The Model was able to predict the top 10 players of this past year with 70% accuracy. It missed on (Aaron Donald, Travis Kelce, and Deandre Hopkins)
 
 #### Exploratory Analysis.ipynb is where the historical data was analyized to see past trends and determine which playes have historically been ranked the best
 #### Predictive Analysis.ipynb is where PyCaret and SciKit Learn were used to predict where the top players of this season would land on the players list

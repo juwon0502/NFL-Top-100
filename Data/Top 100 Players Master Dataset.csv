@@ -203,7 +203,7 @@ Year,Player,Rank,Position,Team,Points
 2012,Peyton Manning,2,QB,DEN,99
 2012,Calvin Johnson,3,WR,DET,98
 2012,Tom Brady,4,QB,NE,97
-2012,J.J. Watt,5,DE,HOU,96
+2012,J. J. Watt,5,DE,HOU,96
 2012,Aaron Rodgers,6,QB,GB,95
 2012,Aldon Smith,7,LB,SF,94
 2012,Arian Foster,8,RB,HOU,93
@@ -310,7 +310,7 @@ Year,Player,Rank,Position,Team,Points
 2013,A. J. Green,9,WR,CIN,92
 2013,Jimmy Graham,10,TE,NOR,91
 2013,Aaron Rodgers,11,QB,GB,90
-2013,J.J. Watt,12,DE,HOU,89
+2013,J. J. Watt,12,DE,HOU,89
 2013,Robert Quinn,13,DE,LAR,88
 2013,Marshawn Lynch,14,RB,SEA,87
 2013,Luke Kuechly,15,LB,CAR,86
@@ -501,7 +501,7 @@ Year,Player,Rank,Position,Team,Points
 2014,Randall Cobb,100,WR,GB,1
 2015,Cam Newton,1,QB,CAR,100
 2015,Tom Brady,2,QB,NE,99
-2015,J.J. Watt,3,DE,HOU,98
+2015,J. J. Watt,3,DE,HOU,98
 2015,Antonio Brown,4,WR,PIT,97
 2015,Adrian Peterson,5,RB,MIN,96
 2015,Aaron Rodgers,6,QB,GB,95
@@ -782,7 +782,7 @@ Year,Player,Rank,Position,Team,Points
 2017,Michael Thomas,81,WR,NOR,20
 2017,Marshon Lattimore,82,CB,NOR,19
 2017,Linval Joseph,83,DT,MIN,18
-2017,J.J. Watt,84,DE,HOU,17
+2017,J. J. Watt,84,DE,HOU,17
 2017,Bruce Irvin,85,DE,LV,16
 2017,Chris Harris Jr.,86,CB,DEN,15
 2017,Andrew Whitworth,87,OT,LAR,14
@@ -810,7 +810,7 @@ Year,Player,Rank,Position,Team,Points
 2018,Julio Jones,9,WR,ATL,92
 2018,Von Miller,10,LB,DEN,91
 2018,DeAndre Hopkins,11,WR,HOU,90
-2018,J.J. Watt,12,DE,HOU,89
+2018,J. J. Watt,12,DE,HOU,89
 2018,Michael Thomas,13,WR,NOR,88
 2018,Alvin Kamara,14,RB,NOR,87
 2018,Bobby Wagner,15,LB,SEA,86
@@ -856,7 +856,7 @@ Year,Player,Rank,Position,Team,Points
 2018,Xavien Howard,55,CB,MIA,46
 2018,Joey Bosa,56,DE,LAC,45
 2018,Danielle Hunter,57,DE,MIN,44
-2018,A.J. Green,58,WR,CIN,43
+2018,A. J. Green,58,WR,CIN,43
 2018,Zack Martin,59,G,DAL,42
 2018,Larry Fitzgerald,60,WR,ARI,41
 2018,Jaylon Smith,61,LB,DAL,40
@@ -868,8 +868,8 @@ Year,Player,Rank,Position,Team,Points
 2018,Dee Ford,67,DE,KC,34
 2018,Phillip Lindsay,68,RB,DEN,33
 2018,Matt Ryan,69,QB,ATL,32
-2018,T.Y. Hilton,70,WR,IND,31
-2018,C.J. Mosley,71,LB,BAL,30
+2018,T. Y. Hilton,70,WR,IND,31
+2018,C. J. Mosley,71,LB,BAL,30
 2018,Jason Kelce,72,C,PHI,29
 2018,Stefon Diggs,73,WR,MIN,28
 2018,Leighton Vander Esch,74,LB,DAL,27
@@ -891,7 +891,7 @@ Year,Player,Rank,Position,Team,Points
 2018,Julian Edelman,90,WR,NE,11
 2018,Andrew Whitworth,91,OT,LAR,10
 2018,Jurrell Casey,92,DE,TEN,9
-2018,T.J. Watt,93,LB,PIT,8
+2018,T. J. Watt,93,LB,PIT,8
 2018,Mitchell Schwartz,94,OT,KC,7
 2018,Kyle Fuller,95,CB,CHI,6
 2018,Carson Wentz,96,QB,PHI,5
@@ -943,7 +943,7 @@ Year,Player,Rank,Position,Team,Points
 2019,Alvin Kamara,42,RB,NOR,59
 2019,Jimmy Garoppolo,43,QB,SF,58
 2019,Mark Ingram,44,RB,BAL,57
-2019,J.J. Watt,45,DE,HOU,56
+2019,J. J. Watt,45,DE,HOU,56
 2019,Dak Prescott,46,QB,DAL,55
 2019,Tre'Davious White,47,CB,BUF,54
 2019,Za'Darius Smith,48,LB,GB,53
@@ -999,3 +999,103 @@ Year,Player,Rank,Position,Team,Points
 2019,Brandon Brooks,98,G,PHI,3
 2019,Darren Waller,99,TE,LV,2
 2019,Lavonte David,100,LB,TB,1
+2020,Patrick Mahomes,1,QB,KC,100
+2020,Aaron Donald,2,DT,LAR,99
+2020,Aaron Rodgers,3,QB,GB,98
+2020,Derrick Henry,4,RB,TEN,97
+2020,Travis Kelce,5,TE,KC,96
+2020,Davante Adams,6,WR,GB,95
+2020,Tom Brady,7,QB,TB,94
+2020,DeAndre Hopkins,8,WR,ARI,93
+2020,T. J. Watt,9,LB,PIT,92
+2020,Josh Allen,10,QB,BUF,91
+2020,Stefon Diggs,11,WR,BUF,90
+2020,Russell Wilson,12,QB,SEA,89
+2020,Jalen Ramsey,13,CB,LAR,88
+2020,Alvin Kamara,14,RB,NOR,87
+2020,Tyreek Hill,15,WR,KC,86
+2020,Myles Garrett,16,DE,CLV,85
+2020,Xavien Howard,17,CB,MIA,84
+2020,Deshaun Watson,18,QB,HOU,83
+2020,Budda Baker,19,S,ARI,82
+2020,Dalvin Cook,20,RB,MIN,81
+2020,Fred Warner,21,LB,SF,80
+2020,DK Metcalf,22,WR,SEA,79
+2020,Khalil Mack,23,LB,CHI,78
+2020,Lamar Jackson,24,QB,BAL,77
+2020,Bobby Wagner,25,LB,SEA,76
+2020,Nick Chubb,26,RB,CLV,75
+2020,DeForest Buckner,27,DT,IND,74
+2020,Devin White,28,LB,TB,73
+2020,Julio Jones,29,WR,ATL,72
+2020,Aaron Jones,30,RB,GB,71
+2020,Jamal Adams,31,S,SEA,70
+2020,Joey Bosa,32,DE,LAC,69
+2020,Quenton Nelson,33,G,IND,68
+2020,Chris Jones,34,DT,KC,67
+2020,Darren Waller,35,TE,LV,66
+2020,David Bakhtiari,36,OT,GB,65
+2020,Darius Leonard,37,LB,IND,64
+2020,Marlon Humphrey,38,CB,BAL,63
+2020,Kyler Murray,39,QB,ARI,62
+2020,Bradley Chubb,40,LB,DEN,61
+2020,Jaire Alexander,41,CB,GB,60
+2020,Trent Williams,42,OT,SF,59
+2020,Lavonte David,43,LB,TB,58
+2020,Christian McCaffrey,44,RB,CAR,57
+2020,Justin Simmons,45,S,DEN,56
+2020,Cameron Jordan,46,DE,NOR,55
+2020,Stephon Gilmore,47,CB,NE,54
+2020,Mike Evans,48,WR,TB,53
+2020,J. C. Jackson,49,CB,NE,52
+2020,George Kittle,50,TE,SF,51
+2020,Za'Darius Smith,51,LB,GB,50
+2020,Minkah Fitzpatrick,52,S,PIT,49
+2020,Justin Jefferson,53,WR,MIN,48
+2020,Grady Jarrett,54,DT,ATL,47
+2020,Keenan Allen,55,WR,LAC,46
+2020,Justin Herbert,56,QB,LAC,45
+2020,Cameron Heyward,57,DT,PIT,44
+2020,Tyrann Mathieu,58,S,KC,43
+2020,Jason Pierre-Paul,59,LB,TB,42
+2020,Corey Linsley,60,C,GB,41
+2020,Chase Young,61,DE,WAS,40
+2020,A. J. Brown,62,WR,TEN,39
+2020,Fletcher Cox,63,DT,PHI,38
+2020,Demario Davis,64,LB,NOR,37
+2020,Calvin Ridley,65,WR,ATL,36
+2020,J. J. Watt,66,DE,HOU,35
+2020,K. J. Wright,67,LB,SEA,34
+2020,Josh Jacobs,68,RB,LV,33
+2020,Ryan Kelly,69,C,IND,32
+2020,Eric Kendricks,70,LB,MIN,31
+2020,Baker Mayfield,71,QB,CLV,30
+2020,Michael Thomas,72,WR,NOR,29
+2020,Trey Hendrickson,73,DE,NOR,28
+2020,James Bradberry,74,CB,NYG,27
+2020,Laremy Tunsil,75,OT,HOU,26
+2020,Tyler Lockett,76,WR,SEA,25
+2020,Quandre Diggs,77,S,SEA,24
+2020,Jeffery Simmons,78,DT,TEN,23
+2020,Terron Armstead,79,OT,NOR,22
+2020,Adam Thielen,80,WR,MIN,21
+2020,Chris Godwin,81,WR,TB,20
+2020,Garett Bolles,82,OT,DEN,19
+2020,Ryan Tannehill,83,QB,TEN,18
+2020,Leonard Williams,84,DE,NYG,17
+2020,Zack Martin,85,G,DAL,16
+2020,Marshon Lattimore,86,CB,NOR,15
+2020,Allen Robinson,87,WR,CHI,14
+2020,Shaquil Barrett,88,LB,TB,13
+2020,Tristan Wirfs,89,OT,TB,12
+2020,Jessie Bates,90,S,CIN,11
+2020,Corey Davis,91,WR,TEN,10
+2020,Jason Kelce,92,C,PHI,9
+2020,T. J. Hockenson,93,TE,DET,8
+2020,Jarvis Landry,94,WR,CLV,7
+2020,Tre'Davious White,95,CB,BUF,6
+2020,Cole Beasley,96,WR,BUF,5
+2020,Kyle Juszczyk,97,FB,SF,4
+2020,Brandon Scherff,98,G,WAS,3
+2020,Brandon Graham,99,DE,PHI,2
+2020,James Robinson,100,RB,JAX,1

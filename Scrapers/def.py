@@ -38,7 +38,13 @@ def_weirdos = {
     'T. J. Ward':'W/WardT.99.htm',
     'Ha Ha Clinton-Dix':'C/ClinHa00.htm',
     'Kevin Byard':'B/ByarKe01.htm',
-    'Eddie Jackson':'J/JackEd01.htm'
+    'Eddie Jackson':'J/JackEd01.htm',
+    'Chase Young':'Y/YounCh04.htm',
+    'Leonard Williams':'W/WillLe02.htm',
+    'Jeffery Simmons':'S/SimmJe01.htm',
+    'Devin White':'W/WhitDe02.htm',
+    'K. J. Wright':'W/WrigK.00.htm',
+    'J. C. Jackson':'J/JackJ.00.htm'
 }
 
 
@@ -68,7 +74,7 @@ def get_stats(name, year, end):
                 print(name, year, end2)
                 return []
     data = [td.text for td in table]
-    data = data[6:]
+    data = data[6:24]
     data1 = []
     for x in data:
         try:
@@ -110,7 +116,7 @@ def main():
         tag += fn[0:2] + "99.htm"
         row = get_stats(name[1], y, tag)
         big_list.append(row)
-        print(name)
+        # print(name)
     big_list = [x for x in big_list if x]
     def_stats = pd.DataFrame(big_list, columns = get_col_names())
     def_stats = def_stats.set_index(['Year','Player'])

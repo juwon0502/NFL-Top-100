@@ -40,6 +40,7 @@ def get_stats(name, year, end):
     data1.insert(1,loss)
     data1.insert(0,name)
     data1.insert(1,year)
+    data1 = data1[0:28]
     return data1
 
 def main():
@@ -63,11 +64,11 @@ def main():
     # create new df with nested list and correct columns. Set year and player as multi-index
     qb_stats = pd.DataFrame(big_list, columns=get_col_names())
     qb_stats = qb_stats.set_index(['Year','Player'])
-    qb_data = qb.join(qb_stats, lsuffix=['Year','Player'], rsuffix=['Year','Player'])
-    qb_data = qb_data.dropna()
-    qb_data.to_csv("../Data/qb_data.csv")
-    print(qb_data)
-    return(qb_data)
+    # qb_data = qb.join(qb_stats, lsuffix=['Year','Player'], rsuffix=['Year','Player'])
+    # qb_data = qb_data.dropna()
+    qb_stats.to_csv('../Data/qb_data.csv')
+    # print(qb_data)
+    # return(qb_data)
 
 
 def get_col_names():
@@ -84,5 +85,3 @@ def get_col_names():
     return add_cols
 
 main()
-
-

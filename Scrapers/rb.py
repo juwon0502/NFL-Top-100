@@ -44,6 +44,7 @@ def get_stats(name, year, end):
                 data1.append(0)
     data1.insert(0,name)
     data1.insert(1,year)
+    data1 = data1[0:27]
     return data1
 
 def get_col_names():
@@ -51,7 +52,7 @@ def get_col_names():
     soup = bs(r.content , features = "html.parser")
     table = soup.find("table").find_all("th")
     add_cols = [th.text for th in table]
-    add_cols = add_cols[15:40]
+    add_cols = add_cols[16:41]
     add_cols.insert(0,"Player")
     add_cols.insert(1,"Year")
     return add_cols

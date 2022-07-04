@@ -15,5 +15,8 @@
     "Safety": "S",
     "linebacker": "LB",
     "Outside linebacker": "LB",
-    "Strong Safety": "S"
+    "Strong Safety": "S",
+    "Inside linebacker": "LB",
+    "Middle linebacker": "LB",
+    "Outside  linebacker": "LB"
 }

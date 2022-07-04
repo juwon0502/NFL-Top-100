@@ -10,7 +10,8 @@ te_weirdos = {
     'Jordan Reed':'R/ReedJo02.htm',
     'Delanie Walker':'W/WalkHu00.htm',
     'Gary Barnidge':'B/BarnGa01.htm',
-    'Darren Waller':'W/WallDa01.htm'
+    'Darren Waller':'W/WallDa01.htm',
+    'T. J. Hockenson':'H/HockTJ00.htm'
 }
 
 
@@ -38,21 +39,22 @@ def get_stats(name, year, end):
                 data1.append(0)
     data1.insert(0,name)
     data1.insert(1,year)
+    data1 = data1[0:27]
     return data1
 
 def get_col_names():
-    r = requests.get('https://www.pro-football-reference.com/players/H/HillTy00.htm')
+    r = requests.get('https://www.pro-football-reference.com/players/H/HockTJ00.htm')
     soup = bs(r.content , features = "html.parser")
     table = soup.find("table").find_all("th")
     add_cols = [th.text for th in table]
-    add_cols = add_cols[15:40]
+    add_cols = add_cols[16:41]
     add_cols.insert(0,"Player")
     add_cols.insert(1,"Year")
     return add_cols
 
 def main():
-    df = pd.read_csv('../Data/Top 100 Players Master Dataset.csv' , index_col = ['Year', 'Player'])
-    te = df.loc[df['Position']=='TE']
+    df = pd.read_csv("../Data/Top 100 Players Master Dataset.csv" , index_col=['Year', 'Player'])
+    te = df.loc[df['Position'] == 'TE']
     big_list = []
     for name in list(te.index.values):
         fn = name[1].split(" ")[0]
@@ -67,9 +69,10 @@ def main():
     big_list = [x for x in big_list if x]
     te_stats = pd.DataFrame(big_list, columns = get_col_names())
     te_stats = te_stats.set_index(['Year','Player'])
-    te_data = te.join(te_stats, lsuffix=['Year','Player'], rsuffix=['Year','Player'])
-    te_data.to_csv('../Data/te_data.csv')
-    print(te_data)
+    # te_data = te.join(te_stats, lsuffix=['Year','Player'], rsuffix=['Year','Player'])
+    # te_data = te_data.dropna()
+    te_stats.to_csv('../Data/te_data.csv')
+    # print(te_data)
 
 main()
 

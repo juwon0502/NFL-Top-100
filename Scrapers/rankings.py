@@ -5,9 +5,7 @@ import pandas as pd
 import json
 
 URLHEAD = "https://en.wikipedia.org/wiki/NFL_Top_100_Players_of_"
-YEARS = []
-for x in range(2010, 2020):
-  YEARS.append(x)
+YEARS = [x for x in range(2010, 2021)]
 
 with open('../Data/teams.json') as json_file:
     team_abv = json.load(json_file)
@@ -18,16 +16,23 @@ with open('../Data/position.json') as json_file:
 def get_data(year):
   #Get html based on what year
   r = requests.get(URLHEAD + str(year+1))
-  soup = bs(r.content , features = "html.parser")
+  soup = bs(r.content)
   #find the right table
-  tables = soup.find_all('table')
+  # tables = soup.find_all('table')
+  tables = soup.find_all("table")
   #from table headers get column names
-  headers = tables[2].find('tbody').find_all('th')
+  if year < 2017:
+    table = tables[3]
+    # headers = tables[2].find('tbody').find_all('th')
+  else:
+    table = tables[2]
+
+  headers = table.find('tbody').find_all('th')
   cols = []
   for header in headers:
     cols.append(header.text.strip())
   #Find rest of data
-  tr = tables[2].find('tbody').find_all('tr')
+  tr = table.find('tbody').find_all('tr')
   master = []
   row = []
   for ln in tr:
@@ -49,6 +54,7 @@ def main():
     except:
         pass
     for year in YEARS:
+        print(year)
         temp_df = pd.DataFrame(get_data(year))
         cols = list(temp_df.iloc[0])
         temp_df = temp_df.iloc[1:]
@@ -75,7 +81,7 @@ def main():
 
     df['Rank'] = df['Rank'].astype('int32')
     df['Points'] = 101 - df['Rank']
-    df.loc[df['Player'].str.contains('Mark Ingram Jr.')] = 'Mark Ingram'
+    df.loc[df['Player'].str.contains('Mark Ingram Jr.'), "Player"] = 'Mark Ingram'
     df = df.set_index(['Year', 'Player'])
     df.to_csv("../Data/Top 100 Players Master Dataset.csv")
 
